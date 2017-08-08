@@ -8,5 +8,5 @@ The library is used in `coinblesk-frontend` to parse QR codes on the Send-Funds 
 ## Updating the library
 If you update the library, download the current minified version of an Instascan release. Then, make sure to increase the version number in the `package.json` to the same number as the release of Instascan.
 
-[1] Instascan library, URL: https://github.com/schmich/instascan
-[2] Instascan library, releases: URL: https://github.com/schmich/instascan/releases
+- [1] Instascan library, URL: https://github.com/schmich/instascan
+- [2] Instascan library, releases: URL: https://github.com/schmich/instascan/releases
