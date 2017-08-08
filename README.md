@@ -1,7 +1,11 @@
 # coinblesk-frontend-instascan
-Instascan build for Coinblesk
+> Instascan build for Coinblesk
 
-This package acts as a wrapper for the Instascan (https://github.com/schmich/instascan) library. It contains a built version of the release. This library is used in Coinblesk, but it is necessary to use it with the `noParse` option in webpack. It contains various `require()` statements which should not be resolved.
+This package acts as a wrapper for the release of the Instascan [1] library. It contains a built version of the current release (2017-08-08).
+
+The library is used in `coinblesk-frontend` to parse QR codes on the Send-Funds page. Make sure, to have this project excluded from parsing (`noParse` option in the webpack build process). There are dependencies in the minified instascan file, which webpack would try to resolve. This leads to a non-working Instascan.
 
 ## Updating the library
-If you update the library, download the minified release version of Instascan and make sure to adapt the version number in the `package.json`.
+If you update the library, download the current minified version of an Instascan release. Then, make sure to increase the version number in the `package.json` to the same number as the release of Instascan.
+
+[1] Instascan library, URL: https://github.com/schmich/instascan
