@@ -1,0 +1,8 @@
+{
+  "name": "coinblesk-frontend-instascan",
+  "version": "1.0.0",
+  "description": "Instascan build for Coinblesk",
+  "main": "instascan.min.js",
+  "repository": "https://github.com/coinblesk/coinblesk-frontend-instascan.git",
+  "author": "Sebastian Schrepfer <contact@schrepfer.io>"
+}
