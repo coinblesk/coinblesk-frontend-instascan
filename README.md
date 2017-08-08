@@ -1,7 +1,7 @@
 # coinblesk-frontend-instascan
 > Instascan build for Coinblesk
 
-This package acts as a wrapper for the release of the Instascan [1] library. It contains a built version of the current release (2017-08-08).
+This package acts as a wrapper for the release of the Instascan [1] library. It contains a built version of the current release (v1.0.0, 2017-01-26).
 
 The library is used in `coinblesk-frontend` to parse QR codes on the Send-Funds page. Make sure, to have this project excluded from parsing (`noParse` option in the webpack build process). There are dependencies in the minified instascan file, which webpack would try to resolve. This leads to a non-working Instascan.
 
