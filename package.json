@@ -1,6 +1,6 @@
 {
   "name": "coinblesk-frontend-instascan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instascan build for Coinblesk",
   "main": "instascan.min.js",
   "repository": "https://github.com/coinblesk/coinblesk-frontend-instascan.git",
