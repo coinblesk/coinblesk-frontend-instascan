@@ -7,3 +7,4 @@ The library is used in `coinblesk-frontend` to parse QR codes on the Send-Funds 
 
 ## Updating the library
 If you update the library, download the current minified version of an Instascan release and name it accordingly. Then, push this change to GitHub. Make sure, that `coinblesk-frontend` takes the newest version of this dependency (there are no versions, but only a link to GitHub). It's probably the easiest to just delete this folder in the `node_modules` of `coinblesk-frontend` &ndash; or maybe even the full `node_modules` folder. A simple `yarn install` won't be enough.
+If you increment the version of this module, make the necessary changes to the `yarn.lock` file or use `yarn upgrade`.
